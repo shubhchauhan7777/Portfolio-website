@@ -1,2 +1,2 @@
 # Portfolio-website
-Created a portfolio website and provided the attractive look to it using cascadinng style sheets.
+Welcome to my portfolio! This repository hosts the code for my personal portfolio website, where you can explore my skills, projects, and professional journey.
