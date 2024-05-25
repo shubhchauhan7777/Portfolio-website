@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #222031;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.color {
+    color: #00d7e5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    color: #00e567;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.left {
+    font-size: 1.9rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.firstsection .leftsection {
+    width: 50%;
+}
+
+.leftsection {
+    /* background-color: red; */
+    font-size: 2.8rem;
+    margin: 100px 0;
+    margin-left: 30px;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background:#222031;
+    color: rgb(255, 255, 255);
+    border: 1.5px solid #00d7e5;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 550;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0px -6px 5px rgb(255 0 231);
+}
+
+.leftsection .btn:hover {
+    transform: scale(1.05);
+    background: #00d7e5;
+    color: black;
+
+}
+
+.rightsection {
+    /* background-color: red; */
+    margin-top: 70px;
+
+}
+
+.rightsection img {
+    height: 285px;
+    width: 285px;
+    padding-top: 1px;
+    border-radius: 150px;
+    box-shadow: 0px 4px 80px rgb(0 224 255)
+}
+
+.purple {
+    color: rgb(21, 255, 0);
+}
+
+.text-gray {
+    color: gray;
+
+}
+
+#element {
+    color: rgb(255, 0, 255);
+
+}
+
+.secondsection {
+    max-width: 85vw;
+    margin: auto;
+    height: 85vh;
+    margin-top: 150px;
+}
+
+.secondsection h1 {
+    font-size: 2.1rem;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    width: 100%;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 45px rgb(255, 0, 221);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card p {
+    font-size: 1.3rem;
+    padding: 10px;
+
+
+
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 150px rgb(0, 119, 255);
+}
+
+.thirdsection {
+    max-width: 85vw;
+    margin: auto;
+    height: 60vh;
+    margin-top: 10px;
+}
+
+.thirdsection h1 {
+    font-size: 2.1rem;
+    text-align: center;
+
+}
+
+.box {
+    background-color: rgb(18, 18, 62);
+    color: white;
+    width: 96%;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 45px rgb(115, 255, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 150px rgb(0, 174, 255);
+}
+
+table {
+    width: 100%;
+    height: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 10px 35px rgb(174, 0, 255);
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(174, 0, 255);
+    font-size: 1.3rem;
+
+}
+
+.forthsection {
+    max-width: 85vw;
+    margin: auto;
+    height: 85vh;
+    margin-top: 28px;
+
+}
+
+.forthsection h1 {
+    font-size: 2.1rem;
+    text-align: center;
+
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.box1 {
+    text-align: center;
+    margin-top: 28px;
+    height: 75%;
+    width: 47%;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px rgb(149, 0, 255);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.box1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 150px rgb(255, 174, 0);
+}
+
+.box1 h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.box1 p {
+    padding: 10px;
+
+    font-size: 1.3rem;
+
+
+}
+
+.box2 {
+    text-align: center;
+    margin-top: 28px;
+    height: 75%;
+    width: 47%;
+    border-radius: 10px;
+    box-shadow: 0 4px 40px rgb(255, 0, 200);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.box2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 150px rgb(0, 255, 247);
+}
+
+.box2 h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.box2:hover h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.box2 p {
+    padding: 10px;
+
+    font-size: 1.25rem;
+
+
+}
+
+.fifthsection {
+    max-width: 85vw;
+    margin: auto;
+    height: 85vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container h1 {
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 70%;
+    height: 80%;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 45px rgb(2, 158, 255);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 150px rgb(255, 0, 0);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 158, 255);
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.1rem;
+}
+
+.contact-form button {
+    width: 22%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(2, 158, 255);
+    color: rgb(18, 18, 62);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #00e567;
+    transform: scale(1.05);
+}
+
+.footerbox {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    width: 100%;
+    background-color: rgb(2, 158, 255);
+
+}

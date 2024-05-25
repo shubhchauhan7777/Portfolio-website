@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Port<span class="color">folio</span></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#1st">Home</a></li>
+                    <li><a href="#2nd">About</a></li>
+                    <li><a href="#3rd">Skills</a></li>
+                    <li><a href="#4th">Projects</a></li>
+                    <li><a href="#5th">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="1st">
+            <div class="leftsection">
+                Hi, I'm <span class="purple">Shubham Chauhan</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="https://docs.google.com/document/d/1xkC-8yFh_dcZeqrqu1rhCK6JSpjVYuJ-/edit?usp=drive_link&ouid=107898690138588597555&rtpof=true&sd=true" target="_blank"> <button class="btn">Download Resume</button></a>
+                    
+                </div>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="my profile.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="secondsection" id="2nd">
+            <div class="cards">
+
+                <div class="card">
+                    <h1>About me</h1>
+                    <p>I am Shubham Chauhan, a passionate and motivated 3rd year B.Tech Computer Science and Engineering
+                        student. I am deeply fascinated by technology and its ability to change the world. I love
+                        exploring the endless opportunities in computer science and enjoy tackling challenges that
+                        require creative solutions and innovative thinking. My curiosity drives me to constantly learn
+                        and grow, ensuring I stay up-to-date with the latest advancements in technology. With a keen
+                        interest in how technology can transform our lives, I am always eager to expand my knowledge and
+                        skills. I thrive on problem-solving and am dedicated to pushing the boundaries of what is
+                        possible in the tech world. I participate in coding competitions and tech workshops to further
+                        enhance my skills. I also enjoy collaborating with peers on exciting projects that solve
+                        real-world problems.</p>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="thirdsection" id="3rd">
+            <div class="box">
+                <h1>Skills</h1>
+                <table>
+
+                    <tr>
+                        <td>Html</td>
+                        <td>Cascading Style Sheets</td>
+                        <td>JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>Data Structures and Algorithms</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Mathematics</td>
+                        <td>Frontend Development</td>
+                        <td>DBMS</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="forthsection" id="4th">
+            <h1>Projects</h1>
+            <div class="boxs">
+                <div class="box1">
+                    <h2>StudySync</h2>
+                    <p>"StudySync is an innovative project aimed at revolutionizing collaborative learning. It provides
+                        a comprehensive platform where students can synchronize their study materials, share resources,
+                        and engage in learning. With StudySync, students can enhance their learning experience by
+                        accessing a wealth of educational resources, collaborating with peers, and fostering a dynamic
+                        learning community."</p>
+
+                </div>
+                <div class="box2">
+                    <h2>Gym Website</h2>
+                    <p>"Designed and developed a dynamic gym website utilizing HTML and CSS, showcasing sleek design and
+                        user-friendly navigation. Integrated interactive features for class schedules, trainer profiles,
+                        and membership registration. Employed responsive design principles for seamless viewing across
+                        devices, ensuring optimal user experience. Enhanced functionality and aesthetics to promote gym
+                        services and engage potential clients effectively."</p>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="fifthsection" id="5th">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <div class="sec">
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name, eg - Shubham Chauhan" required>
+                        <input type="email" name="email" placeholder="Your Email, eg - shubhchauhan7777@gmail.com"
+                            required>
+                        <textarea name="message" rows="5" placeholder="Your Message..., eg - How's it?"
+                            required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerbox">
+                <p>Created by Shubham Chauhan | &copy; 2024 All Rights Reserved</p>
+        </footer>
+
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['B.tech CSE Student', 'Aspiring Software Engineer', 'Frontend Developer.'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
